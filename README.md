@@ -16,7 +16,7 @@ Data Processing/ETL: Pentaho / Python Scripts
 Data Visualization: Power BI
 
 # 📊 Data Model (Star Schema)
-(Upload your ERD/Data Model image here)
+![Architecture Diagram](Doc/DataModel.png)
 
 This project uses a Star Schema for analytical efficiency, consisting of one fact table (fact_audio_features) linked to four dimension tables (dim_track, dim_artist, dim_album, dim_genre).
 
@@ -34,6 +34,8 @@ Removing incomplete records to ensure data quality.
 Loading: Storing the clean data into a query-ready format.
 
 To simplify the analysis in Power BI, I created a dedicated view named vw_clean_music_data, which is pre-filtered and joined for immediate use.
+This is a preview of my vw_clean_music_data on SQL Server Management Studio (SSMS)
+
 
 # 🚀 How to Use
 Restore Database: Download the **spotifyDB.bak** file from the following Google Drive link: [https://drive.google.com/drive/folders/1QiYgc1MmGTWHPJRG6ygfE5NcQ4AhGImE?usp=sharing].
