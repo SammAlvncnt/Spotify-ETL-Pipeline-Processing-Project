@@ -1,6 +1,7 @@
-## Spotify Data Engineering Pipeline
-This project is an end-to-end data engineering pipeline designed to process, clean, and provide audio feature data from Spotify for in-depth analytical purposes.
-
+# Spotify Data Engineering Pipeline
+![SpotifyDiagram](Doc/Banner.png)
+--
+**This project is an end-to-end data engineering pipeline designed to process, clean, and provide audio feature data from Spotify for in-depth analytical purposes.**
 ## Architecture Diagram
 ![Architecture Diagram](Doc/Architecture.png)
 
